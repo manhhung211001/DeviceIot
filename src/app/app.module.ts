@@ -32,13 +32,15 @@ import { HomeComponent } from './home/home.component';
 import { DevicelistComponent } from './devicelist/devicelist.component';
 import { MapComponent } from './map/map.component';
 import { DeviceAddEditComponent } from './device-add-edit/device-add-edit.component';
+import { SettingComponent } from './setting/setting.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     DevicelistComponent,
     MapComponent,
-    DeviceAddEditComponent
+    DeviceAddEditComponent,
+    SettingComponent
   ],
   imports: [
     BrowserModule,
