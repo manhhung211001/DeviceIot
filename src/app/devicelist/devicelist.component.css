@@ -1,0 +1,10 @@
+.menu__Add{
+    display: flex;
+    text-align: justify;
+    
+}
+
+.menu__Add--button{
+    margin-left: auto;
+    background-color: rgb(0, 255, 51);
+}

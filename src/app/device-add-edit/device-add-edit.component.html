@@ -1,0 +1,45 @@
+<div mat-dialog-title>
+    <h1>Device Form</h1>
+</div>
+
+ <div mat-dialog-content>
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>Device Name</mat-label>  
+            <mat-select>
+                <mat-option *ngFor = "let val of education" [value]="val">
+                    {{val}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>weight</mat-label>  
+            <input matInput type="number" placeholder="Ki-lo-gam">
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>Size</mat-label>  
+            <input matInput type="number" placeholder="centimet">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>price</mat-label>  
+            <input matInput type="number" placeholder="VND">
+        </mat-form-field>
+    </div>
+
+    <div class="row">
+
+        <mat-form-field appearance="outline">
+            <mat-label>price</mat-label>  
+            <input matInput type="number" placeholder="VND">
+        </mat-form-field>
+    </div>
+</div>
+
+<div mat-dialog-actions>
+    <button mat-raised-button>Cancel</button>
+    <button mat-raised-button color="primary">Save</button>
+</div>
